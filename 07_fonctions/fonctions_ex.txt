@@ -1,0 +1,63 @@
+1) Ecrire une fonction qui permet de demander à 
+l'utilisateur un nombre compris entre deux valeurs
+et qui renvoie à coup sur un nombre compris entre ces
+deux valeurs
+2) Ecrire une fonction qui renvoie le résultat de la 
+multiplication de deux nombres
+3) Ecrire une fonction qui affiche la table de 
+multiplication d'un nombre ou le premier et le dernier 
+multiples sont paramétrés
+4) (suite exercice 4 sur les boucles)
+- Coder convertir_heures_en_minutes(heures,minutes) 
+qui renvoie la conversion d'une heure en minutes. Par 
+exemple convertir_heures_en_minutes(1,30) renvoie 90
+- Coder convertir_minutes_en_heures(minutes) qui renvoie
+la conversion de minutes en heures. Par exemple 
+convertir_minutes_en_heures(90) renvoie 1, 30
+- reprendre les fonctions demander_saisie_nombre
+- coder demander_saisie_nombre_positif(invite) qui 
+renvoie un nombre positif entré par l'utilisateur
+- on souhaite afficher un menu
+	Menu
+	1) Convertir minutes en heures
+	2) Convertir heures en minutes
+	3) Quitter
+	Votre choix ?
+Implémenter les fonctionnalités.
+5) (suite exercice 2 exceptions)
+Recoder le jeu où l'on devine un nombre choisi 
+aléatoirement par le programme. Cette fois ci, le 
+programme va demander à l'utilisateur quelles bornes 
+utiliser et lorsqu'il aura deviné un nombre incorrect, 
+il lui proposera les choix cohérents
+Exemple : je choisi 1 et 100 comme bornes. Le programme
+me demande de saisir un nombre entre 1 et 100. Je choisi
+50. Le programme me répond : le nombre est plus grand, 
+choisi un nombre entre 51 et 100. Lorsque j'ai trouvé, 
+le programme s'arrête.
+On va cette fois ci utiliser des fonctions.
+- reprendre les fonctions demander_saisie_nombre et 
+demander_saisie_nombre_borne
+- coder decider_bornes() qui renvoie les bornes 
+utilisées pour le jeu
+- coder jouer_un_coup(nombre,minimum,maximum) qui 
+demande à l'utilisateur un entier entre minimum et 
+maximum, et qui renvoie :
+	* un boolean à vrai uniquement si l'utilisateur a 
+    gagné (il a choisi le paramètre nombre)
+	* le minimum pour le coup suivant
+	* le maximum pour le coup suivant
+- coder jouer_une_partie(nombre,minimum,maximum) qui 
+fait une partie du jeu où l'entier à deviner est le 
+paramètre nombre, et où les bornes sont minimum et 
+maximum et qui renvoie le nombre de tentatives du 
+joueur
+- coder une fonction jouer() qui fait tout le jeu : 
+demander à l'utilisateur les bornes du jeu, puis choisi
+un nombre aléatoirement, puis demande à l'utilisateur 
+de deviner un nombre, en lui disant si le nombre est 
+plus grand ou plus petit, et en lui proposant au fur et 
+à mesure des choix cohérents avec ces indications. 
+Lorsque le joueur trouve le nombre, la fonction le 
+félicite, lui donne son nombre de tentatives et 
+s'arrête.

@@ -1,0 +1,5 @@
+1) Demander à l'utilisateur un nombre. Afficher ensuite 
+si ce nombre est pair ou impair
+
+2) Demander à l'utilisateur un mot. Afficher si ce mot 
+contient la lettre "e" ou non (utiliser l'opérateur in)

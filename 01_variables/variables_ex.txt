@@ -1,0 +1,5 @@
+1) Créer 3 variables avec des noms corrects et 
+les afficher
+
+2) Demander à l'utilisateur son prénom, puis lui dire 
+bonjour personnellement

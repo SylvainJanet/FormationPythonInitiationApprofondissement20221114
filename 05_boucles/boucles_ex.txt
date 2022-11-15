@@ -1,0 +1,18 @@
+1) Afficher tous les nombres de 1 (inclus) à 15 (inclus)
+2) Afficher tous les nombres pairs entre 1 (inclus) et 10 (inclus)
+3) Afficher un menu : 
+    Menu
+    1) Convertir minutes en heures
+    2) Quitter
+    Votre choix ?
+Et implémenter les fonctionnalités.
+Par exemple, la conversion transformera 90 minutes en 
+1 h 30 minutes
+4) Afficher les 20 premiers termes de la suite de 
+fibonacci.
+Elle est définie de la manière suivante : 
+Les premiers termes sont 0 et 1, et les termes suivants 
+sont définis comme étant la somme des deux termes 
+précédents.
+Autrement dit, fibo(0) = 0, fibo(1) = 1, et 
+fibo(n+2) = fibo(n) + fibo(n+1)

@@ -1,0 +1,2 @@
+Demander à l'utilisateur sa rue, son code postal 
+et sa ville puis afficher l'adresse complète
