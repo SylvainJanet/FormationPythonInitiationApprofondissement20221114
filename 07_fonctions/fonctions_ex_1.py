@@ -2,6 +2,7 @@
 # l'utilisateur un nombre et qui renvoie à coup sur un 
 # nombre.
 
+
 def demander_saisie_nombre(invite = "Merci d'entrer un nombre"):
   while True:
     user_input = input(invite)

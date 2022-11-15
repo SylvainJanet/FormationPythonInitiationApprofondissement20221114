@@ -1,0 +1,59 @@
+1) Réduire ces algorithmes à l'aide, des listes en 
+compréhension 
+a)
+nombres = [1, 21, 45, 12, 32, 65, 1002, 109, 83]
+nombres_pairs = []
+for i in nombres:
+    if i % 2 == 0:
+        nombres_pairs.append(i)
+print(nombres_pairs)
+
+b)
+nombres = range(-10, 10)
+nombres_positifs = []
+for i in nombres:
+    if i >= 0:
+        nombres_positifs.append(i)
+print(nombres_positifs)
+
+c)
+nombres = range(5)
+nombres_doubles = []
+for i in nombres:
+    nombres_doubles.append(i * 2)
+print(nombres_doubles)
+
+d)
+nombres = range(10)
+nombres_inverses = []
+for i in nombres:
+    if i % 2 == 0:
+        nombres_inverses.append(i)
+    else:
+        nombres_inverses.append(-i)
+print(nombres_inverses)
+
+2) Faire un programme qui permet d'ajouter ou retirer 
+des produits d'une liste de courses. Lorsque le 
+programme demarre, l'utilisateur a le choix entre:
+	1- Afficher la liste de courses.
+	2- Ajouter un produit a la liste de courses (chaine 
+  de caracteres ex: pomme)
+	3- Retirer un produit de la liste de course 
+	4- Supprimer toute la liste de courses
+	5- Quitter le programme
+Tant que l'utilisateur ne saisit pas "quitter", on 
+continue la boucle
+Si l'utilisateur tape 1 : on affiche la liste des 
+produits 
+Si l'utilisateur tape 2 : on lui demande le nom du 
+produit à ajouter et on l'ajoute à la liste de courses
+Si l'utilisateur tape 3 : on lui demande le nom du 
+produit à retirer et on le retire de la liste de courses
+Si l'utilisateur tape 4 : on vide la liste
+Si l'utilisateur tape 5: on affiche "Au revoir" et on 
+quitte le programme
+
+3) Ecrire une fonction qui transformer une chaine de 
+caracteres en accronyme
+Salut les    geeks -> SLG

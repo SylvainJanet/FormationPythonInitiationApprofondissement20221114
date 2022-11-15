@@ -91,7 +91,7 @@ print("_____")
 def demander_saisie_deux_nombres():
   nombre1 = demander_saisie_nombre()
   nombre2 = demander_saisie_nombre()
-  return nombre1, nombre2
+  return nombre1, nombre2 # on renvoie en réalité un tuple
 
 # x = demander_saisie_deux_nombres()
 # print(x)

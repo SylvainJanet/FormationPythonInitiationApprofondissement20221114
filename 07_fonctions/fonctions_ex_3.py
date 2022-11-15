@@ -7,4 +7,4 @@ def table_multiplication(number,first_multiple, last_multiple):
     print(f"{i} x {number} = {i*number}")
 
 print("Table de multiplication de 13 : ")
-table_multiplication(7,0,6)
+table_multiplication(13,0,10)
