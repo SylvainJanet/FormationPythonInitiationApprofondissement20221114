@@ -1,0 +1,39 @@
+1) créer une fonction find_char(chaine, lettre) qui 
+affiche "trouvé" ou "aucun résultat" selon si une 
+lettre apparait dans une chaine de caractères
+
+2) Créer une fonction anagramme(mot1: str, mot2: str)
+qui permet de vérifier si deux mots sont des 
+anagrammes
+
+3) Créer une fonction 
+palindrome(mot, space_included = False) 
+qui permet de vérifier si une chaine de caractères
+est un palindrome.
+Le paramètre space_included permet d'inclure ou non 
+les espaces
+palindrome('kayak') = True
+palindrome('Esope reste ici et se repose') = False
+palindrome('Esope reste ici et se repose', True) = True
+palindrome('chien') = False
+
+4) Créer une fonction rot(chaine, number) qui encode 
+une chaine de caractères selon le code de César en 
+utilisant le paramètre number.
+Code de césar : https://fr.wikipedia.org/wiki/Chiffrement_par_d%C3%A9calage
+Attention aux majuscules/minuscules !
+Pour s'aider : https://fr.wikibooks.org/wiki/Les_ASCII_de_0_%C3%A0_127/La_table_ASCII#Descriptif3
+Exemple : 
+rot("ABCD",3) = "DEFG"
+rot("Message secret",13) = "Zrffntr frperg"
+Pour décoder un message, il suffit d'utiliser 
+rot(message_encode,26-ancien_number) Et donc :
+rot("DEFG",23) = "ABCD"
+rot("Zrffntr frperg",13) = "Message secret"
+
+5) Créer une fonction decimal_to_binary(decimal) qui 
+converti un nombre décimal en un nombre binaire 
+(renvoie une chaine de caractère) 
+Créer une fonction binary_to_decimal(chaine: str) qui 
+converti un nombre binaire (sous forme de chaine de 
+caractères) en un nombre décimal

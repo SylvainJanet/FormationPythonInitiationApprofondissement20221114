@@ -1,0 +1,5 @@
+Réécrire la classe Product en respectant les bonnes 
+pratiques d'encapsulation des champs dans des 
+accesseurs en lecture et en écriture
+Vous pouvez renomer l'ancien fichier product.py en 
+product_naive.py pour garder une trace du premier jet

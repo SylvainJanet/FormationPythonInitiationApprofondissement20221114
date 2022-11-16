@@ -1,0 +1,10 @@
+  Créer un nouveau module product dans un nouveau package
+  myclasses placé à la racine du projet
+  Y mettre une classe Product qui est décrit par un id, 
+  une description, un prix, qui a des méthodes pour calculer 
+  la TVA d'un produit et le prix TTC (prix tva = 0.2 * prix, 
+  et prix ttc = prix + prix tva), un compteur du nombre total 
+  de produits instanciés, une méthode qui permet de print() 
+  correctement un produit, et une méthode qui compare des
+  produits (deux produits sont les mêmes ssi ils ont le 
+  même id)
