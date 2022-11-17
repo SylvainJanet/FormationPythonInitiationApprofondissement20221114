@@ -1,0 +1,16 @@
+1) Créer une fonction read_file_txt(path) qui renvoie 
+un string contenant le contenu d'un fichier au chemin 
+path (à partir du dossier de travail actuel)
+la mettre dans le package tools, dans le module files.py
+2) Créer une fonction write_file_txt(path, content) qui 
+écrit le contenu du string content dans un fichier au 
+chemin path (le créant / l'écrasant éventuellement)
+la mettre dans le package tools, dans le module files.py
+
+Note : 
+- ne pas gérer les cas où les fichiers n'existent pas
+- ne pas s'embêter avec join, faire
+file_path = os.getcwd() + path
+
+ex : pour récupérer le contenu du fichier message, on doit faire 
+contenu = read_file_txt("/23_files_txt/message.txt")

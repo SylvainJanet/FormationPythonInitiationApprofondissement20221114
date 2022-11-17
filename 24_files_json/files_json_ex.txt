@@ -1,0 +1,17 @@
+1) Créer une méthode read_file_json(path) qui renvoie 
+une liste contenant le contenu d'un fichier au chemin 
+path (à partir du dossier de travail actuel)
+la mettre dans le package tools, dans le module files.py
+2) Créer une méthode write_file_json(path, content) 
+qui écrit le contenu du dictionnaire content dans un 
+fichier au chemin path (le créant / l'écrasant 
+éventuellement)
+la mettre dans le package tools, dans le module files.py
+
+Note : 
+- ne pas gérer les cas où les fichiers n'existent pas
+- ne pas s'embêter avec join, faire
+file_path = os.getcwd() + path
+
+ex : pour récupérer le contenu du fichier message, on doit faire 
+contenu = read_file_json("/24_files_json/users.json")

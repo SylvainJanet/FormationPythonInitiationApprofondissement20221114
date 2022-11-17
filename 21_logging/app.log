@@ -1,0 +1,8 @@
+17/11/2022 - 10:22 - [INFO]: Ceci est mon message - info
+17/11/2022 - 10:22 - [WARNING]: Ceci est mon message - warning
+17/11/2022 - 10:22 - [ERROR]: Ceci est mon message - error
+17/11/2022 - 10:22 - [CRITICAL]: Ceci est mon message - critical
+17/11/2022 - 10:22 - [INFO]: Appel de la fonction addition
+17/11/2022 - 10:22 - [WARNING]: Ceci est mon message de mon_loggeur - warning
+17/11/2022 - 10:22 - [ERROR]: Ceci est mon message de mon_loggeur - error
+17/11/2022 - 10:22 - [CRITICAL]: Ceci est mon message de mon_loggeur - critical
