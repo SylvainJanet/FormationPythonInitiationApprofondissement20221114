@@ -1,4 +1,4 @@
-from myexceptions import IdNegatif,PrixNegatif
+from myclasses.myexceptions import IdNegatif,PrixNegatif
 
 class Product:
   compteur = 0
