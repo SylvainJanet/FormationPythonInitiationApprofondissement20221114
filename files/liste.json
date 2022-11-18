@@ -1,0 +1,26 @@
+[
+  {
+    "product": {
+      "id": 1,
+      "description": "Table",
+      "prix": 50.0
+    },
+    "quantity": 3
+  },
+  {
+    "product": {
+      "id": 2,
+      "description": "Crayon",
+      "prix": 1.5
+    },
+    "quantity": 4
+  },
+  {
+    "product": {
+      "id": 3,
+      "description": "PC DELL",
+      "prix": 2550.0
+    },
+    "quantity": 1
+  }
+]
